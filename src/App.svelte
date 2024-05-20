@@ -47,9 +47,9 @@ const handleClick = () => {
     START
     {/if}
   </button>
-  <div class="game-board">
 
-<Circle {handleClick}{x}{y}{size} display={gameRun ? 'block' : 'none'}/>
+  <div class="game-board">
+    <Circle {handleClick}{x}{y}{size} display={gameRun ? 'block' : 'none'}/>
   </div>
 </main>
 
